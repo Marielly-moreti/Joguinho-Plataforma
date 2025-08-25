@@ -560,7 +560,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 10
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -571,7 +571,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &220379535
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -636,7 +636,7 @@ Transform:
   m_GameObject: {fileID: 220379532}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.56, y: -2.94, z: 0}
+  m_LocalPosition: {x: -12.568, y: -2.945, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -655,6 +655,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c716c3d43ae27e40b7c9991e244eaca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velocidade: 40
+  velocidadeMaxima: 40
+  forcaPulo: 20
 --- !u!1 &235361817
 GameObject:
   m_ObjectHideFlags: 0
@@ -935,8 +938,8 @@ GameObject:
   - component: {fileID: 675952548}
   - component: {fileID: 675952547}
   - component: {fileID: 675952546}
-  m_Layer: 0
-  m_Name: Square (1)
+  m_Layer: 6
+  m_Name: Chao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1499,8 +1502,8 @@ GameObject:
   - component: {fileID: 1008132338}
   - component: {fileID: 1008132337}
   - component: {fileID: 1008132336}
-  m_Layer: 0
-  m_Name: Square (2)
+  m_Layer: 6
+  m_Name: Chao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2273,8 +2276,8 @@ GameObject:
   - component: {fileID: 1645922293}
   - component: {fileID: 1645922292}
   - component: {fileID: 1645922291}
-  m_Layer: 0
-  m_Name: Square
+  m_Layer: 6
+  m_Name: Chao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2417,8 +2420,8 @@ Transform:
   m_GameObject: {fileID: 1645922290}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.0037, y: -4.137, z: 0}
-  m_LocalScale: {x: 6.8749804, y: 1.8108975, z: 1}
+  m_LocalPosition: {x: -10.0092, y: -4.137, z: 0}
+  m_LocalScale: {x: 6.8859806, y: 1.8108975, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2703,8 +2706,8 @@ GameObject:
   - component: {fileID: 1825697383}
   - component: {fileID: 1825697382}
   - component: {fileID: 1825697381}
-  m_Layer: 0
-  m_Name: Square (3)
+  m_Layer: 6
+  m_Name: Chao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3131,7 +3134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1892562807}
   - component: {fileID: 1892562808}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ChecaChao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3220,8 +3223,8 @@ GameObject:
   - component: {fileID: 1957156776}
   - component: {fileID: 1957156775}
   - component: {fileID: 1957156774}
-  m_Layer: 0
-  m_Name: Square (4)
+  m_Layer: 6
+  m_Name: Chao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
